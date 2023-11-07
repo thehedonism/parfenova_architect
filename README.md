@@ -1,2 +1,0 @@
-# parfenova_architect
-parfenova_architect
