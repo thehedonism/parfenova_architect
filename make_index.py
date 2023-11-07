@@ -42,6 +42,11 @@ def make_index():
     text_output += '\n'
 
     for file in media_files:
+        if file.suffix in ['.jpg', '.jpeg',]:
+            text_output += f'![{file.name}]({file})'
+            text_output += '\n'
+            text_output += '\n'
+
         text_output += f'[{file.name}]({file})'
         text_output += '\n'
         text_output += '\n'
