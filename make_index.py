@@ -46,7 +46,7 @@ def make_index():
         text_output += '\n'
         text_output += '\n'
 
-    write_file('index.html', text_output)
+    write_file('index.md', text_output)
 
 
 if __name__ == '__main__':
